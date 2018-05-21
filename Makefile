@@ -5,7 +5,8 @@
 ## makefile tail
 ##
 
-SRC	=	src/utils.c
+SRC	=	src/utils.c \
+		src/game.c
 
 OBJ	=	$(SRC:.c=.o)
 

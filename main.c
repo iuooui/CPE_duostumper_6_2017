@@ -81,6 +81,7 @@ void game(str_t *p, char **av)
 	for (;b != my_norm_strlen(p->sol); b++)
 		p->rep[b] = ' ';
 	p->rep[b] = '\0';
+	game2(p);
 }
 
 int main(int ac, char **av)
